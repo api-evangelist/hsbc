@@ -1,0 +1,1447 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "HSBC UK",
+        "description": "",
+        "termsOfService": "http:\/\/exmple.com\/license\/"
+    },
+    "servers": [
+        "http:\/\/api.hsbc.com\/"
+    ],
+    "paths": {
+        "\/open-banking\/v1.2\/atms": {
+            "get": {
+                "summary": "",
+                "description": "This API will return data about all our ATMs and is prepared to the Open Banking standards as defined by the Open Banking Implementation Entity (OBIE) in data dictionary version 1.2.4. It is regulated by the UK Competition and Markets Authority (CMA). Data is only available for the United Kingdom.",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": "Success",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/ATMDefinitionMeta"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/open-banking\/v1.2\/branches": {
+            "get": {
+                "summary": "",
+                "description": "This API will return the branch details for all branches and is prepared to the Open Banking standards as defined by the Open Banking Implementation Entity (OBIE) in data dictionary version 1.2.4. It is regulated by the UK Competition and Markets Authority (CMA). Data is only available for the United Kingdom.",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": "Success",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/ATMDefinitionMeta"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/open-banking\/v1.2\/business-current-accounts": {
+            "get": {
+                "summary": "",
+                "description": "This API will return data about all BCA productsand is prepared to the Open Banking standards as defined by the Open Banking Implementation Entity (OBIE) in data dictionary version 1.2.4. It is regulated by the UK Competition and Markets Authority (CMA). Data is only available for the United Kingdom.",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": "Success",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/ATMDefinitionMeta"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/open-banking\/v1.2\/commercial-credit-cards": {
+            "get": {
+                "summary": "",
+                "description": "This API will return data about all commercial credit cards productsand is prepared to the Open Banking standards as defined by the Open Banking Implementation Entity (OBIE) in data dictionary version 1.2.4. It is regulated by the UK Competition and Markets Authority (CMA). Data is only available for the United Kingdom.",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": "Success",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/ATMDefinitionMeta"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/open-banking\/v1.2\/personal-current-accounts": {
+            "get": {
+                "summary": "",
+                "description": "This API will return data about all PCA productsand is prepared to the Open Banking standards as defined by the Open Banking Implementation Entity (OBIE) in data dictionary version 1.2.4. It is regulated by the UK Competition and Markets Authority (CMA). Data is only available for the United Kingdom.",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": "Success",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/ATMDefinitionMeta"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/open-banking\/v1.2\/unsecured-sme-loans": {
+            "get": {
+                "summary": "",
+                "description": "This API will return data about all SME lending productsand is prepared to the Open Banking standards as defined by the Open Banking Implementation Entity (OBIE) in data dictionary version 1.2.4. It is regulated by the UK Competition and Markets Authority (CMA). Data is only available for the United Kingdom.",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": "Success",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/ATMDefinitionMeta"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/x-open-banking\/v1.2\/atms\/country\/{country}": {
+            "get": {
+                "summary": "",
+                "description": "This extended API will return data about all ATMs in the specified country. It is based-on the Open Banking standards as defined by the Open Banking Implementation Entity (OBIE) in data dictionary version 1.2.4. The extended functionality may not fully adhere to the non-functional requirements of the regulator. Data is only available for the United Kingdom.",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "country",
+                        "in": "path",
+                        "description": "The ISO country code e.g. &quot;GB&quot;"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/ATMDefinitionMeta"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/x-open-banking\/v1.2\/atms\/country\/{country}\/town\/{town}": {
+            "get": {
+                "summary": "",
+                "description": "This extended API will return data about all ATMs in the specified town. It is based-on the Open Banking standards as defined by the Open Banking Implementation Entity (OBIE) in data dictionary version 1.2.4. The extended functionality may not fully adhere to the non-functional requirements of the regulator. Data is only available for the United Kingdom.",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "country",
+                        "in": "path",
+                        "description": "The ISO country code e.g. &quot;GB&quot;"
+                    },
+                    {
+                        "name": "town",
+                        "in": "path",
+                        "description": "Town name, not case sensitive"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/ATMDefinitionMeta"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/x-open-banking\/v1.2\/atms\/geo-location\/lat\/{latitude}\/long\/{longitude}": {
+            "get": {
+                "summary": "",
+                "description": "This extended API will data about all ATMs within a specified radius (1 to 10 miles) of the specified latitude and longitude. It is based-on the Open Banking standards as defined by the Open Banking Implementation Entity (OBIE) in data dictionary version 1.2.4. The extended functionality may not fully adhere to the non-functional requirements of the regulator. Data is only available for the United Kingdom.",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "latitude",
+                        "in": "path",
+                        "description": "Positive or negative decimal value in degrees. eg &quot51.50551621597067&quot"
+                    },
+                    {
+                        "name": "longitude",
+                        "in": "path",
+                        "description": "Positive or negative decimal value in degrees. eg &quot-0.0180120225995&quot"
+                    },
+                    {
+                        "name": "radius",
+                        "in": "query",
+                        "description": "Number of miles (1 to 10) as an integer. Default = 1"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/ATMDefinitionMeta"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/x-open-banking\/v1.2\/atms\/postcode\/{postcode}": {
+            "get": {
+                "summary": "",
+                "description": "This extended API will return data about all ATMs within a 5 mile radius of the specified postcode. It is based-on the Open Banking standards as defined by the Open Banking Implementation Entity (OBIE) in data dictionary version 1.2.4. The extended functionality may not fully adhere to the non-functional requirements of the regulator. Data is only available for the United Kingdom.",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "postcode",
+                        "in": "path",
+                        "description": "Letters and numerals only. No spaces or special characters. eg  &quotSW1A1AA&quot"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/ATMDefinitionMeta"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/x-open-banking\/v1.2\/branches\/country\/{country}": {
+            "get": {
+                "summary": "",
+                "description": "This extended API will return the branch details for all branches in the specified country. It is based-on the Open Banking standards as defined by the Open Banking Implementation Entity (OBIE) in data dictionary version 1.2.4. The extended functionality may not fully adhere to the non-functional requirements of the regulator. Data is only available for the United Kingdom.",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "country",
+                        "in": "path",
+                        "description": "The ISO country code e.g. &quot;GB&quot;"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/ATMDefinitionMeta"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/x-open-banking\/v1.2\/branches\/country\/{country}\/town\/{town}": {
+            "get": {
+                "summary": "",
+                "description": "This extended API will return the branch details for all branches in the specified town. It is based-on the Open Banking standards as defined by the Open Banking Implementation Entity (OBIE) in data dictionary version 1.2.4. The extended functionality may not fully adhere to the non-functional requirements of the regulator. Data is only available for the United Kingdom.",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "country",
+                        "in": "path",
+                        "description": "The ISO country code e.g. &quot;GB&quot;"
+                    },
+                    {
+                        "name": "town",
+                        "in": "path",
+                        "description": "Town name, not case sensitive"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/ATMDefinitionMeta"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/x-open-banking\/v1.2\/branches\/geo-location\/lat\/{latitude}\/long\/{longitude}": {
+            "get": {
+                "summary": "",
+                "description": "This API will return the branch details for all branches within a specified radius (1 to 10 miles) of the specified latitude and longitude. It is based-on the Open Banking standards as defined by the Open Banking Implementation Entity (OBIE) in data dictionary version 1.2.4. The extended functionality may not fully adhere to the non-functional requirements of the regulator. Data is only available for the United Kingdom.",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "latitude",
+                        "in": "path",
+                        "description": "Positive or negative decimal value in degrees. eg &quot51.50551621597067&quot"
+                    },
+                    {
+                        "name": "longitude",
+                        "in": "path",
+                        "description": "Positive or negative decimal value in degrees. eg &quot-0.0180120225995&quot"
+                    },
+                    {
+                        "name": "radius",
+                        "in": "query",
+                        "description": "Number of miles (1 to 10) as an integer. Default = 1"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/ATMDefinitionMeta"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/x-open-banking\/v1.2\/branches\/postcode\/{postcode}": {
+            "get": {
+                "summary": "",
+                "description": "This extended API will return the branch details for all branches within a 5 mile radius of the specified postcode. It is based-on the Open Banking standards as defined by the Open Banking Implementation Entity (OBIE) in data dictionary version 1.2.4. The extended functionality may not fully adhere to the non-functional requirements of the regulator. Data is only available for the United Kingdom.",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "postcode",
+                        "in": "path",
+                        "description": "Letters and numerals only. No spaces or special characters. eg  &quotSW1A1AA&quot"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/ATMDefinitionMeta"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/x-open-banking\/v1.2\/branches\/sortcode\/{sortcode}": {
+            "get": {
+                "summary": "",
+                "description": "This extended API will return the branch details for a branch specified by its sort code. It is based-on the Open Banking standards as defined by the Open Banking Implementation Entity (OBIE) in data dictionary version 1.2.4. The extended functionality may not fully adhere to the non-functional requirements of the regulator. Data is only available for the United Kingdom.",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "sortcode",
+                        "in": "path",
+                        "description": "6 digit number with no spaces or special characters. eg. &quot400003&quot"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/ATMDefinitionMeta"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/x-open-banking\/v1.2\/business-current-accounts\/segment\/{segment}": {
+            "get": {
+                "summary": "",
+                "description": "This extended API will return data about all BCA products for the specified segment. It is based-on the Open Banking standards as defined by the Open Banking Implementation Entity (OBIE) in data dictionary version 1.2.4. The extended functionality may not fully adhere to the non-functional requirements of the regulator. Data is only available for the United Kingdom.",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "segment",
+                        "in": "path",
+                        "description": "Segment name from this list&#58; &quot;Basic&quot;, &quot;Business&quot;, &quot;General&quot;, &quot;Graduate&quot;, &quot;International&quot;, &quot;Packaged&quot;, &quot;Personal&quot;, &quot;Premium&quot;, &quot;Reward&quot;, &quot;SME&quot;, &quot;Student&quot;, &quot;YoungAdult&quot;, &quot;Youth&quot;."
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/ATMDefinitionMeta"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/x-open-banking\/v1.2\/commercial-credit-cards\/segment\/{segment}": {
+            "get": {
+                "summary": "",
+                "description": "This extended API will return data about all commercial credit cards products for the specified segment. It is based-on the Open Banking standards as defined by the Open Banking Implementation Entity (OBIE) in data dictionary version 1.2.4. The extended functionality may not fully adhere to the non-functional requirements of the regulator. Data is only available for the United Kingdom.",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "segment",
+                        "in": "path",
+                        "description": "Segment name from this list&#58; &quot;Basic&quot;, &quot;Business&quot;, &quot;General&quot;, &quot;Graduate&quot;, &quot;International&quot;, &quot;Packaged&quot;, &quot;Personal&quot;, &quot;Premium&quot;, &quot;Reward&quot;, &quot;SME&quot;, &quot;Student&quot;, &quot;YoungAdult&quot;, &quot;Youth&quot;."
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/ATMDefinitionMeta"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/x-open-banking\/v1.2\/personal-current-accounts\/segment\/{segment}": {
+            "get": {
+                "summary": "",
+                "description": "This extended API will return data about all PCA products for the specified segment. It is based-on the Open Banking standards as defined by the Open Banking Implementation Entity (OBIE) in data dictionary version 1.2.4. The extended functionality may not fully adhere to the non-functional requirements of the regulator. Data is only available for the United Kingdom.",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "segment",
+                        "in": "path",
+                        "description": "Segment name from this list&#58; &quot;Basic&quot;, &quot;Business&quot;, &quot;General&quot;, &quot;Graduate&quot;, &quot;International&quot;, &quot;Packaged&quot;, &quot;Personal&quot;, &quot;Premium&quot;, &quot;Reward&quot;, &quot;SME&quot;, &quot;Student&quot;, &quot;YoungAdult&quot;, &quot;Youth&quot;."
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/ATMDefinitionMeta"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/x-open-banking\/v1.2\/unsecured-sme-loans\/segment\/{segment}": {
+            "get": {
+                "summary": "",
+                "description": "This extended API will return data about all SME lending products for the specified segment. It is based-on the Open Banking standards as defined by the Open Banking Implementation Entity (OBIE) in data dictionary version 1.2.4. The extended functionality may not fully adhere to the non-functional requirements of the regulator. Data is only available for the United Kingdom.",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "segment",
+                        "in": "path",
+                        "description": "Segment name from this list&#58; &quot;Basic&quot;, &quot;Business&quot;, &quot;General&quot;, &quot;Graduate&quot;, &quot;International&quot;, &quot;Packaged&quot;, &quot;Personal&quot;, &quot;Premium&quot;, &quot;Reward&quot;, &quot;SME&quot;, &quot;Student&quot;, &quot;YoungAdult&quot;, &quot;Youth&quot;."
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/ATMDefinitionMeta"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "ATMDefinition": {
+                "type": "object",
+                "properties": {
+                    "ATMID": {
+                        "description": "ATM terminal device identification for the acquirer and the issuer",
+                        "type": "string"
+                    },
+                    "ATMServices": {
+                        "description": "Information about ATM services",
+                        "type": "array"
+                    },
+                    "AccessibilityTypes": {
+                        "description": "Information about the accessibility",
+                        "type": "array"
+                    },
+                    "AdditionalATMServices": {
+                        "description": "ATM Service Description",
+                        "type": "array"
+                    },
+                    "Address": {
+                        "description": "Postal Address",
+                        "type": "object"
+                    },
+                    "BranchIdentification": {
+                        "description": "Unique and unambiguous identification of a retail branch of a financial institution",
+                        "type": "string"
+                    },
+                    "Currency": {
+                        "description": "Defines currency type available for dispense",
+                        "type": "array"
+                    },
+                    "GeographicLocation": {
+                        "description": "Geographic Coordinates",
+                        "type": "object"
+                    },
+                    "LocationCategory": {
+                        "description": "Indicates the environment of the ATM",
+                        "type": "string"
+                    },
+                    "MinimumValueDispensed": {
+                        "description": "Minimum currency denominations usually available",
+                        "type": "string"
+                    },
+                    "Organisation": {
+                        "description": "Organisation",
+                        "type": "object"
+                    },
+                    "SiteID": {
+                        "description": "Site identifying code, where ATM is located",
+                        "type": "string"
+                    },
+                    "SiteName": {
+                        "description": "Site identifying name, where ATM is located",
+                        "type": "string"
+                    },
+                    "SupportedLanguages": {
+                        "description": "Languages that the ATM supports",
+                        "type": "array"
+                    }
+                }
+            },
+            "ATMServices": {
+                "type": "array"
+            },
+            "AccessibilityTypes": {
+                "type": "array"
+            },
+            "AdditionalATMServices": {
+                "type": "array"
+            },
+            "Address": {
+                "type": "object"
+            },
+            "Currency": {
+                "type": "array"
+            },
+            "GeographicLocation": {
+                "type": "object"
+            },
+            "Organisation": {
+                "type": "object"
+            },
+            "SupportedLanguages": {
+                "type": "array"
+            },
+            "ATMDefinitionMeta": {
+                "type": "object",
+                "properties": {
+                    "data": {
+                        "description": "",
+                        "type": "array"
+                    },
+                    "meta": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "MetaDefinition": {
+                        "description": "",
+                        "type": "object"
+                    }
+                }
+            },
+            "data": {
+                "type": "array"
+            },
+            "meta": {
+                "type": "object"
+            },
+            "BCADefinition": {
+                "type": "object",
+                "properties": {
+                    "AccessChannels": {
+                        "description": "Ways to interact with the bank when managing account",
+                        "type": "array"
+                    },
+                    "Benefits": {
+                        "description": "Benefit",
+                        "type": "object"
+                    },
+                    "CAPricing": {
+                        "description": "",
+                        "type": "array"
+                    },
+                    "CardNotes": {
+                        "description": "Optional additional notes to supplement the card details",
+                        "type": "string"
+                    },
+                    "CardType": {
+                        "description": "Card Type available",
+                        "type": "array"
+                    },
+                    "CardWithdrawalLimit": {
+                        "description": "The daily Limit that a customer can get via the ATM. This describes the default limit rather than the maximum",
+                        "type": "string"
+                    },
+                    "ChequeBookAvailable": {
+                        "description": "Can a chequebook be issued",
+                        "type": "boolean"
+                    },
+                    "Contactless": {
+                        "description": "Does the card issued have contactless facility",
+                        "type": "boolean"
+                    },
+                    "CreditInterest": {
+                        "description": "Credit Interest",
+                        "type": "object"
+                    },
+                    "CreditScoringPartOfAccountOpeningForGettingAnAccount": {
+                        "description": "Indicates whether a credit check performed on an inquiry to open an account is submitted",
+                        "type": "boolean"
+                    },
+                    "CreditScoringPartOfAccountOpeningForIDVerification": {
+                        "description": "Indicates whether a credit check is used to check the address of a potential new account holder",
+                        "type": "boolean"
+                    },
+                    "CreditScoringPartOfAccountOpeningIDVerificationIsAHardOrSoftCreditScore": {
+                        "description": "",
+                        "type": "array"
+                    },
+                    "CreditScoringPartOfAccountOpeningIDVerificationText": {
+                        "description": "Details on the specific credit scoring",
+                        "type": "array"
+                    },
+                    "CreditScoringPartOfAccountOpeningIsAHardOrSoftCreditScore": {
+                        "description": "Describes the type of credit scoring",
+                        "type": "array"
+                    },
+                    "CreditScoringPartOfAccountOpeningText": {
+                        "description": "Details on the specific credit scoring",
+                        "type": "string"
+                    },
+                    "Currency": {
+                        "description": "Defines currency type available for dispense",
+                        "type": "array"
+                    },
+                    "Eligibility": {
+                        "description": "Eligibility",
+                        "type": "object"
+                    },
+                    "Feature": {
+                        "description": "",
+                        "type": "array"
+                    },
+                    "FeesAndCharges": {
+                        "description": "",
+                        "type": "array"
+                    },
+                    "InternationalPaymentsSupported": {
+                        "description": "Indicates that the account supports international payments",
+                        "type": "boolean"
+                    },
+                    "MaximumMonthlyCharge": {
+                        "description": "The maximum Relevant Charges that could accrue",
+                        "type": "string"
+                    },
+                    "MobileWallet": {
+                        "description": "Mobile wallet supported by this product. A mobile wallet being any electronic device that allows an individual to make electronic commerce transactions",
+                        "type": "array"
+                    },
+                    "Organisation": {
+                        "description": "Organisation",
+                        "type": "object"
+                    },
+                    "Overdraft": {
+                        "description": "",
+                        "type": "array"
+                    },
+                    "OverdraftOffered": {
+                        "description": "Indicates whether an overdraft offered for this account",
+                        "type": "boolean"
+                    },
+                    "ProductDescription": {
+                        "description": "Description of the product provided by the parent organisation",
+                        "type": "string"
+                    },
+                    "ProductIdentifier": {
+                        "description": "Identifier within the parent organisation for the product. Must be unique in the organisation",
+                        "type": "string"
+                    },
+                    "ProductName": {
+                        "description": "The name of the product used for marketing purposes from a customer perspective. i.e. what the customer would recognise",
+                        "type": "string"
+                    },
+                    "ProductSegment": {
+                        "description": "",
+                        "type": "array"
+                    },
+                    "ProductType": {
+                        "description": "Descriptive code for the product category",
+                        "type": "string"
+                    },
+                    "ProductURL": {
+                        "description": "URL provided by the organisation which redirects to the product (on live products only). There might be more than one product at a given URL",
+                        "type": "array"
+                    },
+                    "TsandCs": {
+                        "description": "URL provided by the parent organisation which redirects to the current T&Cs",
+                        "type": "array"
+                    }
+                }
+            },
+            "AccessChannels": {
+                "type": "array"
+            },
+            "Benefits": {
+                "type": "object"
+            },
+            "CAPricing": {
+                "type": "array"
+            },
+            "CardType": {
+                "type": "array"
+            },
+            "CreditInterest": {
+                "type": "object"
+            },
+            "CreditScoringPartOfAccountOpeningIDVerificationIsAHardOrSoftCreditScore": {
+                "type": "array"
+            },
+            "CreditScoringPartOfAccountOpeningIDVerificationText": {
+                "type": "array"
+            },
+            "CreditScoringPartOfAccountOpeningIsAHardOrSoftCreditScore": {
+                "type": "array"
+            },
+            "Eligibility": {
+                "type": "object"
+            },
+            "Feature": {
+                "type": "array"
+            },
+            "FeesAndCharges": {
+                "type": "array"
+            },
+            "MobileWallet": {
+                "type": "array"
+            },
+            "Overdraft": {
+                "type": "array"
+            },
+            "ProductSegment": {
+                "type": "array"
+            },
+            "ProductURL": {
+                "type": "array"
+            },
+            "TsandCs": {
+                "type": "array"
+            },
+            "BCADefinitionMeta": {
+                "type": "object",
+                "properties": {
+                    "data": {
+                        "description": "",
+                        "type": "array"
+                    },
+                    "meta": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "MetaDefinition": {
+                        "description": "",
+                        "type": "object"
+                    }
+                }
+            },
+            "BranchDefinition": {
+                "type": "object",
+                "properties": {
+                    "ATMAtBranch": {
+                        "description": "Indicated whether an ATM is at the branch",
+                        "type": "boolean"
+                    },
+                    "AccessibilityTypes": {
+                        "description": "Information about the accessibility",
+                        "type": "string"
+                    },
+                    "Address": {
+                        "description": "Postal Address",
+                        "type": "object"
+                    },
+                    "AlternatePhone": {
+                        "description": "",
+                        "type": "array"
+                    },
+                    "ArrivalTime": {
+                        "description": "Time that the mobile branch is scheduled to arrive",
+                        "type": "string"
+                    },
+                    "BranchDescription": {
+                        "description": "Description of the branch",
+                        "type": "string"
+                    },
+                    "BranchFacilitiesName": {
+                        "description": "Information about branch facilities",
+                        "type": "array"
+                    },
+                    "BranchIdentification": {
+                        "description": "Unique and unambiguous identification of a retail branch of a financial institution",
+                        "type": "string"
+                    },
+                    "BranchMediatedServiceName": {
+                        "description": "Information about mediated branch facilities",
+                        "type": "array"
+                    },
+                    "BranchName": {
+                        "description": "Name by which a party is known and which is usually used to identify that party",
+                        "type": "string"
+                    },
+                    "BranchOtherFacilities": {
+                        "description": "Any other facilities not mentioned in BranchFacilitiesName",
+                        "type": "array"
+                    },
+                    "BranchOtherMediatedServices": {
+                        "description": "Mediated Services not described in BranchMediatedServiceName",
+                        "type": "array"
+                    },
+                    "BranchOtherSelfServices": {
+                        "description": "Self Services not described in BranchSelfServeServiceName",
+                        "type": "array"
+                    },
+                    "BranchPhoto": {
+                        "description": "Image related to the branch",
+                        "type": "string"
+                    },
+                    "BranchSelfServeServiceName": {
+                        "description": "",
+                        "type": "array"
+                    },
+                    "BranchType": {
+                        "description": "Information on the type of branch",
+                        "type": "string"
+                    },
+                    "CustomerSegment": {
+                        "description": "Customer segment which the branch is able to service",
+                        "type": "array"
+                    },
+                    "DaysOfTheWeek": {
+                        "description": "Description on when the mobile branch is available. e.g. The weekend of Glastonbury festival; or Mondays and during the shrimp season also Wednesdays",
+                        "type": "string"
+                    },
+                    "DepartureTime": {
+                        "description": "Time that the mobile branch is scheduled to depart",
+                        "type": "string"
+                    },
+                    "FaxNumber": {
+                        "description": "Collection of information that identifies a FAX number, as defined by telecom services.",
+                        "type": "array"
+                    },
+                    "GeographicLocation": {
+                        "description": "Geographic Coordinates",
+                        "type": "object"
+                    },
+                    "OpeningTimes": {
+                        "description": "Branch Opening Times",
+                        "type": "array"
+                    },
+                    "Organisation": {
+                        "description": "Organisation",
+                        "type": "object"
+                    },
+                    "ParkingLocation": {
+                        "description": "Place where the mobile branch is located, such as between the news agent and the church.",
+                        "type": "string"
+                    },
+                    "PlannedBranchClosure": {
+                        "description": "",
+                        "type": "array"
+                    },
+                    "StopName": {
+                        "description": "Name of the stop of the mobile branch",
+                        "type": "string"
+                    },
+                    "TelephoneNumber": {
+                        "description": "Collection of information that identifies a phone number, as defined by telecom services.",
+                        "type": "string"
+                    }
+                }
+            },
+            "AlternatePhone": {
+                "type": "array"
+            },
+            "BranchFacilitiesName": {
+                "type": "array"
+            },
+            "BranchMediatedServiceName": {
+                "type": "array"
+            },
+            "BranchOtherFacilities": {
+                "type": "array"
+            },
+            "BranchOtherMediatedServices": {
+                "type": "array"
+            },
+            "BranchOtherSelfServices": {
+                "type": "array"
+            },
+            "BranchSelfServeServiceName": {
+                "type": "array"
+            },
+            "CustomerSegment": {
+                "type": "array"
+            },
+            "FaxNumber": {
+                "type": "array"
+            },
+            "OpeningTimes": {
+                "type": "array"
+            },
+            "PlannedBranchClosure": {
+                "type": "array"
+            },
+            "BranchDefinitionMeta": {
+                "type": "object",
+                "properties": {
+                    "data": {
+                        "description": "",
+                        "type": "array"
+                    },
+                    "meta": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "MetaDefinition": {
+                        "description": "",
+                        "type": "object"
+                    }
+                }
+            },
+            "CCCDefinition": {
+                "type": "object",
+                "properties": {
+                    "Benefits": {
+                        "description": "Benefit",
+                        "type": "object"
+                    },
+                    "Description": {
+                        "description": "Product description",
+                        "type": "string"
+                    },
+                    "Details": {
+                        "description": "Commercial Credit Card Group ",
+                        "type": "object"
+                    },
+                    "Eligibility": {
+                        "description": "Eligibility",
+                        "type": "object"
+                    },
+                    "KeyFeatures": {
+                        "description": "Product key features",
+                        "type": "string"
+                    },
+                    "Organisation": {
+                        "description": "Organisation",
+                        "type": "object"
+                    },
+                    "OtherKeyFeatures": {
+                        "description": "Additional Features of the card",
+                        "type": "string"
+                    },
+                    "PaymentHoliday": {
+                        "description": "Indicates whether a payment holiday is possible",
+                        "type": "boolean"
+                    },
+                    "PaymentHolidayDescription": {
+                        "description": "Detailed description on the payment holiday if available",
+                        "type": "string"
+                    },
+                    "ProductIdentifier": {
+                        "description": "Identifier within the parent organisation for the product. Must be unique in the organisation",
+                        "type": "string"
+                    },
+                    "ProductName": {
+                        "description": "The name of the product used for marketing purposes from a customer perspective. i.e. what the customer would recognise",
+                        "type": "string"
+                    },
+                    "ProductSegment": {
+                        "description": "",
+                        "type": "array"
+                    },
+                    "ProductType": {
+                        "description": "Descriptive code for the product category",
+                        "type": "string"
+                    },
+                    "ProductURL": {
+                        "description": "URL provided by the organisation which redirects to the product (on live products only). There might be more than one product at a given URL",
+                        "type": "array"
+                    },
+                    "TsandCs": {
+                        "description": "URL provided by the parent organisation which redirects to the current T&Cs",
+                        "type": "array"
+                    }
+                }
+            },
+            "Details": {
+                "type": "object"
+            },
+            "CCCDefinitionMeta": {
+                "type": "object",
+                "properties": {
+                    "data": {
+                        "description": "",
+                        "type": "array"
+                    },
+                    "meta": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "MetaDefinition": {
+                        "description": "",
+                        "type": "object"
+                    }
+                }
+            },
+            "ErrorDefinition400": {
+                "type": "object",
+                "properties": {
+                    "Description": {
+                        "description": "Product description",
+                        "type": "string"
+                    },
+                    "status": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "title": {
+                        "description": "",
+                        "type": "string"
+                    }
+                }
+            },
+            "ErrorDefinition408": {
+                "type": "object",
+                "properties": {
+                    "Description": {
+                        "description": "Product description",
+                        "type": "string"
+                    },
+                    "status": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "title": {
+                        "description": "",
+                        "type": "string"
+                    }
+                }
+            },
+            "ErrorDefinition429": {
+                "type": "object",
+                "properties": {
+                    "Description": {
+                        "description": "Product description",
+                        "type": "string"
+                    },
+                    "status": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "title": {
+                        "description": "",
+                        "type": "string"
+                    }
+                }
+            },
+            "ErrorDefinition500": {
+                "type": "object",
+                "properties": {
+                    "Description": {
+                        "description": "Product description",
+                        "type": "string"
+                    },
+                    "status": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "title": {
+                        "description": "",
+                        "type": "string"
+                    }
+                }
+            },
+            "ErrorDefinition503": {
+                "type": "object",
+                "properties": {
+                    "Description": {
+                        "description": "Product description",
+                        "type": "string"
+                    },
+                    "status": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "title": {
+                        "description": "",
+                        "type": "string"
+                    }
+                }
+            },
+            "MetaDefinition": {
+                "type": "object",
+                "properties": {
+                    "Agreement": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "LastUpdated": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "License": {
+                        "description": "Open Banking License",
+                        "type": "string"
+                    },
+                    "TermsOfUse": {
+                        "description": "Open Banking Terms of Use",
+                        "type": "string"
+                    },
+                    "TotalResults": {
+                        "description": "",
+                        "type": "integer"
+                    }
+                }
+            },
+            "PCADefinition": {
+                "type": "object",
+                "properties": {
+                    "AccessChannels": {
+                        "description": "Ways to interact with the bank when managing account",
+                        "type": "array"
+                    },
+                    "Benefits": {
+                        "description": "Benefit",
+                        "type": "object"
+                    },
+                    "CAPricing": {
+                        "description": "",
+                        "type": "array"
+                    },
+                    "CardNotes": {
+                        "description": "Optional additional notes to supplement the card details",
+                        "type": "string"
+                    },
+                    "CardType": {
+                        "description": "Card Type available",
+                        "type": "array"
+                    },
+                    "CardWithdrawalLimit": {
+                        "description": "The daily Limit that a customer can get via the ATM. This describes the default limit rather than the maximum",
+                        "type": "string"
+                    },
+                    "ChequeBookAvailable": {
+                        "description": "Can a chequebook be issued",
+                        "type": "boolean"
+                    },
+                    "Contactless": {
+                        "description": "Does the card issued have contactless facility",
+                        "type": "boolean"
+                    },
+                    "CreditInterest": {
+                        "description": "Credit Interest",
+                        "type": "object"
+                    },
+                    "CreditScoringPartOfAccountOpeningForGettingAnAccount": {
+                        "description": "Indicates whether a credit check performed on an inquiry to open an account is submitted",
+                        "type": "boolean"
+                    },
+                    "CreditScoringPartOfAccountOpeningForIDVerification": {
+                        "description": "Indicates whether a credit check is used to check the address of a potential new account holder",
+                        "type": "boolean"
+                    },
+                    "CreditScoringPartOfAccountOpeningIDVerificationIsAHardOrSoftCreditScore": {
+                        "description": "",
+                        "type": "array"
+                    },
+                    "CreditScoringPartOfAccountOpeningIDVerificationText": {
+                        "description": "Details on the specific credit scoring",
+                        "type": "array"
+                    },
+                    "CreditScoringPartOfAccountOpeningIsAHardOrSoftCreditScore": {
+                        "description": "Describes the type of credit scoring",
+                        "type": "array"
+                    },
+                    "CreditScoringPartOfAccountOpeningText": {
+                        "description": "Details on the specific credit scoring",
+                        "type": "string"
+                    },
+                    "Currency": {
+                        "description": "Defines currency type available for dispense",
+                        "type": "array"
+                    },
+                    "Eligibility": {
+                        "description": "Eligibility",
+                        "type": "object"
+                    },
+                    "Feature": {
+                        "description": "",
+                        "type": "array"
+                    },
+                    "FeesAndCharges": {
+                        "description": "",
+                        "type": "array"
+                    },
+                    "InternationalPaymentsSupported": {
+                        "description": "Indicates that the account supports international payments",
+                        "type": "boolean"
+                    },
+                    "MaximumMonthlyCharge": {
+                        "description": "The maximum Relevant Charges that could accrue",
+                        "type": "string"
+                    },
+                    "MobileWallet": {
+                        "description": "Mobile wallet supported by this product. A mobile wallet being any electronic device that allows an individual to make electronic commerce transactions",
+                        "type": "array"
+                    },
+                    "Organisation": {
+                        "description": "Organisation",
+                        "type": "object"
+                    },
+                    "Overdraft": {
+                        "description": "",
+                        "type": "array"
+                    },
+                    "OverdraftOffered": {
+                        "description": "Indicates whether an overdraft offered for this account",
+                        "type": "boolean"
+                    },
+                    "ProductDescription": {
+                        "description": "Description of the product provided by the parent organisation",
+                        "type": "string"
+                    },
+                    "ProductIdentifier": {
+                        "description": "Identifier within the parent organisation for the product. Must be unique in the organisation",
+                        "type": "string"
+                    },
+                    "ProductName": {
+                        "description": "The name of the product used for marketing purposes from a customer perspective. i.e. what the customer would recognise",
+                        "type": "string"
+                    },
+                    "ProductSegment": {
+                        "description": "",
+                        "type": "array"
+                    },
+                    "ProductType": {
+                        "description": "Descriptive code for the product category",
+                        "type": "string"
+                    },
+                    "ProductURL": {
+                        "description": "URL provided by the organisation which redirects to the product (on live products only). There might be more than one product at a given URL",
+                        "type": "array"
+                    },
+                    "TsandCs": {
+                        "description": "URL provided by the parent organisation which redirects to the current T&Cs",
+                        "type": "array"
+                    }
+                }
+            },
+            "PCADefinitionMeta": {
+                "type": "object",
+                "properties": {
+                    "data": {
+                        "description": "",
+                        "type": "array"
+                    },
+                    "MetaDefinition": {
+                        "description": "",
+                        "type": "object"
+                    },
+                    "meta": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "SMELendingDefinition": {
+                "type": "object",
+                "properties": {
+                    "ArrearsTreatment": {
+                        "description": "Arrears treatment",
+                        "type": "string"
+                    },
+                    "Benefits": {
+                        "description": "Benefit",
+                        "type": "object"
+                    },
+                    "Currency": {
+                        "description": "Defines currency type available for dispense",
+                        "type": "array"
+                    },
+                    "CustomerAccessChannels": {
+                        "description": "Ways to interact with the bank",
+                        "type": "array"
+                    },
+                    "Eligibility": {
+                        "description": "Eligibility",
+                        "type": "object"
+                    },
+                    "FeesAndCharges": {
+                        "description": "",
+                        "type": "array"
+                    },
+                    "LoanItem": {
+                        "description": "",
+                        "type": "array"
+                    },
+                    "MaximumLoanAmount": {
+                        "description": "Maximum loan amount",
+                        "type": "string"
+                    },
+                    "MaximumLoanTerm": {
+                        "description": "Maximum loan term (Days)",
+                        "type": "integer"
+                    },
+                    "MinimumLoanAmount": {
+                        "description": "Minimum loan amount",
+                        "type": "string"
+                    },
+                    "MinimumLoanTerm": {
+                        "description": "Minimum term (Days)",
+                        "type": "integer"
+                    },
+                    "Organisation": {
+                        "description": "Organisation",
+                        "type": "object"
+                    },
+                    "PaymentHoliday": {
+                        "description": "Indicates whether a payment holiday is possible",
+                        "type": "boolean"
+                    },
+                    "ProductDescription": {
+                        "description": "Description of the product provided by the parent organisation",
+                        "type": "string"
+                    },
+                    "ProductIdentifier": {
+                        "description": "Identifier within the parent organisation for the product. Must be unique in the organisation",
+                        "type": "string"
+                    },
+                    "ProductName": {
+                        "description": "The name of the product used for marketing purposes from a customer perspective. i.e. what the customer would recognise",
+                        "type": "string"
+                    },
+                    "ProductSegment": {
+                        "description": "",
+                        "type": "array"
+                    },
+                    "ProductTypeName": {
+                        "description": "Descriptive code for the product category",
+                        "type": "string"
+                    },
+                    "ProductURL": {
+                        "description": "URL provided by the organisation which redirects to the product (on live products only). There might be more than one product at a given URL",
+                        "type": "array"
+                    },
+                    "TsandCs": {
+                        "description": "URL provided by the parent organisation which redirects to the current T&Cs",
+                        "type": "array"
+                    }
+                }
+            },
+            "CustomerAccessChannels": {
+                "type": "array"
+            },
+            "LoanItem": {
+                "type": "array"
+            },
+            "SMELendingDefinitionMeta": {
+                "type": "object",
+                "properties": {
+                    "data": {
+                        "description": "",
+                        "type": "array"
+                    },
+                    "MetaDefinition": {
+                        "description": "",
+                        "type": "object"
+                    },
+                    "meta": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            }
+        }
+    }
+}
