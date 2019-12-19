@@ -1,0 +1,92 @@
+{
+    "name": "HSBC",
+    "description": "<p>HSBC Holdings plc is a British multinational banking and financial services holding company, tracing its origin to a hong in Hong Kong. It is the world's seventh largest bank by total assets and the largest in Europe with total assets of US$2.374 trillion (as of December 2016). It was established in its present form in London in 1991 by The Hongkong and Shanghai Banking Corporation to act as a new group holding company. The origins of the bank lie mainly in Hong Kong and to a lesser extent in Shanghai, where branches were first opened in 1865. The HSBC name is derived from the initials of the Hongkong and Shanghai Banking Corporation. The company was first formally incorporated in 1866. The company continues to see both the United Kingdom and Hong Kong as its \"home markets\".<\/p>",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/HSBC-Logo.png",
+    "tags": [
+        "api provider",
+        "banking",
+        "financial services",
+        "general data",
+        "have api",
+        "have swagger",
+        "relative data",
+        "uk banks"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/hsbc\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "HSBC",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/HSBC-Logo.png",
+            "humanURL": "https:\/\/hsbc.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/hsbc.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/hsbc-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/hsbc-postman-collection.json"
+                }
+            ]
+        },
+        {
+            "name": "HSBC UK",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/HSBC-Logo.png",
+            "humanURL": "https:\/\/hsbc.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/hsbc-uk.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/hsbc-uk-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/hsbc-uk-postman-collection.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/hsbc"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/28105-2019-09-04-06-27-00.json"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/28105-2019-09-04-00-04-43.json"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/HSBC"
+        },
+        {
+            "type": "Developers",
+            "url": "https:\/\/developer.hsbc.com"
+        },
+        {
+            "type": "Website",
+            "url": "https:\/\/hsbc.com"
+        }
+    ]
+}
