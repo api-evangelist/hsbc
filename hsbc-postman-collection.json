@@ -1,5 +1,5 @@
 {
-    "id": "62073568fad2e097fbeefc2ba25ebae5",
+    "id": "77eff585ddd5324489fa348b80c75074",
     "name": "HSBC",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "0a2cdf0b58447581b346d5b18fbcae8d",
+            "id": "f19289d1772be977c17831cc494275fb",
             "name": "Get ATMs",
             "url": "httpsapi.hsbc.comopen-banking\/v2.1\/atms\/",
             "description": "This endpoint can contain multiple brands owned by a particular banking group. Each brand can provide multiple ATMs.",
@@ -29,11 +29,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "62073568fad2e097fbeefc2ba25ebae5",
+            "collectionId": "77eff585ddd5324489fa348b80c75074",
             "rawModeData": ""
         },
         {
-            "id": "cb418b2f9204ed235a6906ffa1259a06",
+            "id": "f85a7b70219b0a2afcbdddf5e42f4d39",
             "name": "Get Branches",
             "url": "httpsapi.hsbc.comopen-banking\/v2.1\/branches\/",
             "description": "This endpoint can contain multiple brands owned by a particular banking group. Each brand can own multiple branches. ",
@@ -52,11 +52,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "62073568fad2e097fbeefc2ba25ebae5",
+            "collectionId": "77eff585ddd5324489fa348b80c75074",
             "rawModeData": ""
         },
         {
-            "id": "6f55af247c4f5446d9f7d91808bbc439",
+            "id": "eab3ac75d92564bd20a51cb6d1ba4a7e",
             "name": "Get Current Personal Accounts",
             "url": "httpsapi.hsbc.comopen-banking\/v2.1\/personal-current-accounts\/",
             "description": "This endpoint can contain multiple brands owned by a particular banking group. Each brand can own multiple PCA products.",
@@ -75,11 +75,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "62073568fad2e097fbeefc2ba25ebae5",
+            "collectionId": "77eff585ddd5324489fa348b80c75074",
             "rawModeData": ""
         },
         {
-            "id": "5b50d3d318768050e1a2ab312dd121d7",
+            "id": "b8e0d03eddcedbb605968befe305e8b3",
             "name": "Get Current Business Accounts",
             "url": "httpsapi.hsbc.comopen-banking\/v2.1\/business-current-accounts\/",
             "description": "This endpoint can contain multiple brands owned by a particular banking group. Each brand can own multiple BCA products.",
@@ -98,11 +98,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "62073568fad2e097fbeefc2ba25ebae5",
+            "collectionId": "77eff585ddd5324489fa348b80c75074",
             "rawModeData": ""
         },
         {
-            "id": "b85788b5ccbf0ccfa6c298dcdbff9e46",
+            "id": "2d2a681bff280b68bd12e3bdb102fc8d",
             "name": "Get Unsecured SME Loans",
             "url": "httpsapi.hsbc.comopen-banking\/v2.1\/unsecured-sme-loans\/",
             "description": "This endpoint can contain multiple brands owned by a particular banking group. Each brand can own multiple SME Unsecured Loan products.",
@@ -121,11 +121,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "62073568fad2e097fbeefc2ba25ebae5",
+            "collectionId": "77eff585ddd5324489fa348b80c75074",
             "rawModeData": ""
         },
         {
-            "id": "d1863cf5fcab224a2208a855560ebc66",
+            "id": "9c11f478d5657b88e272fa555f986c78",
             "name": "Get Commercial Credit Cards",
             "url": "httpsapi.hsbc.comopen-banking\/v2.1\/commercial-credit-cards\/",
             "description": "This endpoint can contain multiple brands owned by a particular banking group. Each brand can own multiple SME Commercial Credit Card products.",
@@ -144,7 +144,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "62073568fad2e097fbeefc2ba25ebae5",
+            "collectionId": "77eff585ddd5324489fa348b80c75074",
             "rawModeData": ""
         }
     ]
