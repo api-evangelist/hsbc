@@ -12,8 +12,8 @@
         "relative data",
         "uk banks"
     ],
-    "created": "2019-12-19",
-    "modified": "2019-12-19",
+    "created": "2019-12-21",
+    "modified": "2019-12-21",
     "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/hsbc\/master\/apis.json",
     "specificationVersion": "0.14",
     "apis": [
@@ -31,11 +31,11 @@
                 },
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/hsbc-openapi.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/hsbc\/master\/hsbc-openapi.json"
                 },
                 {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/hsbc-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/hsbc\/master\/hsbc-postman-collection.json"
                 }
             ]
         },
@@ -53,17 +53,21 @@
                 },
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/hsbc-uk-openapi.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/hsbc\/master\/hsbc-uk-openapi.json"
                 },
                 {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/hsbc-uk-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/hsbc\/master\/hsbc-uk-postman-collection.json"
                 }
             ]
         }
     ],
     "include": [],
     "x-common": [
+        {
+            "type": "APIs.json",
+            "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/apis.json"
+        },
         {
             "type": "Crunchbase",
             "url": "https:\/\/crunchbase.com\/organization\/hsbc"
