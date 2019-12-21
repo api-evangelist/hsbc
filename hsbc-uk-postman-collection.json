@@ -1,5 +1,5 @@
 {
-    "id": "580672235aa8f66d4669f404ef95ca88",
+    "id": "09b24853c7a0e1c10ec4312a32ce64f3",
     "name": "HSBC UK",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "2e06ffcd02c9dd8ae33823b974e2f55e",
+            "id": "dabf7fd7001c3cfa49a65453b9f0d437",
             "name": "",
             "url": "http:\/\/api.hsbc.com\/\/open-banking\/v1.2\/atms",
             "description": "This API will return data about all our ATMs and is prepared to the Open Banking standards as defined by the Open Banking Implementation Entity (OBIE) in data dictionary version 1.2.4. It is regulated by the UK Competition and Markets Authority (CMA). Data is only available for the United Kingdom.",
@@ -29,11 +29,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "580672235aa8f66d4669f404ef95ca88",
+            "collectionId": "09b24853c7a0e1c10ec4312a32ce64f3",
             "rawModeData": ""
         },
         {
-            "id": "b7d34304de11aaa86dd47d768d891c9b",
+            "id": "6a19066800e26dab5b543c7b16b8438c",
             "name": "",
             "url": "http:\/\/api.hsbc.com\/\/open-banking\/v1.2\/branches",
             "description": "This API will return the branch details for all branches and is prepared to the Open Banking standards as defined by the Open Banking Implementation Entity (OBIE) in data dictionary version 1.2.4. It is regulated by the UK Competition and Markets Authority (CMA). Data is only available for the United Kingdom.",
@@ -52,11 +52,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "580672235aa8f66d4669f404ef95ca88",
+            "collectionId": "09b24853c7a0e1c10ec4312a32ce64f3",
             "rawModeData": ""
         },
         {
-            "id": "21a6fc962d5fbf0b5ddeb6a699452d35",
+            "id": "324e89682e19a1d790e2f956806b9934",
             "name": "",
             "url": "http:\/\/api.hsbc.com\/\/open-banking\/v1.2\/business-current-accounts",
             "description": "This API will return data about all BCA productsand is prepared to the Open Banking standards as defined by the Open Banking Implementation Entity (OBIE) in data dictionary version 1.2.4. It is regulated by the UK Competition and Markets Authority (CMA). Data is only available for the United Kingdom.",
@@ -75,11 +75,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "580672235aa8f66d4669f404ef95ca88",
+            "collectionId": "09b24853c7a0e1c10ec4312a32ce64f3",
             "rawModeData": ""
         },
         {
-            "id": "678b9567d96f3182065b8651ea9ec898",
+            "id": "215ff6263743afab121dbb571f3820a8",
             "name": "",
             "url": "http:\/\/api.hsbc.com\/\/open-banking\/v1.2\/commercial-credit-cards",
             "description": "This API will return data about all commercial credit cards productsand is prepared to the Open Banking standards as defined by the Open Banking Implementation Entity (OBIE) in data dictionary version 1.2.4. It is regulated by the UK Competition and Markets Authority (CMA). Data is only available for the United Kingdom.",
@@ -98,11 +98,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "580672235aa8f66d4669f404ef95ca88",
+            "collectionId": "09b24853c7a0e1c10ec4312a32ce64f3",
             "rawModeData": ""
         },
         {
-            "id": "691aa379a0530dd1e4eb09a7a9968312",
+            "id": "3284f1d800052bb3c4b7987ab71f9bc2",
             "name": "",
             "url": "http:\/\/api.hsbc.com\/\/open-banking\/v1.2\/personal-current-accounts",
             "description": "This API will return data about all PCA productsand is prepared to the Open Banking standards as defined by the Open Banking Implementation Entity (OBIE) in data dictionary version 1.2.4. It is regulated by the UK Competition and Markets Authority (CMA). Data is only available for the United Kingdom.",
@@ -121,11 +121,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "580672235aa8f66d4669f404ef95ca88",
+            "collectionId": "09b24853c7a0e1c10ec4312a32ce64f3",
             "rawModeData": ""
         },
         {
-            "id": "51ec6d0ab11a8d7eef49e349b7b0360f",
+            "id": "5d40bfc6088797319e0b3b8d6eddaa5e",
             "name": "",
             "url": "http:\/\/api.hsbc.com\/\/open-banking\/v1.2\/unsecured-sme-loans",
             "description": "This API will return data about all SME lending productsand is prepared to the Open Banking standards as defined by the Open Banking Implementation Entity (OBIE) in data dictionary version 1.2.4. It is regulated by the UK Competition and Markets Authority (CMA). Data is only available for the United Kingdom.",
@@ -144,11 +144,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "580672235aa8f66d4669f404ef95ca88",
+            "collectionId": "09b24853c7a0e1c10ec4312a32ce64f3",
             "rawModeData": ""
         },
         {
-            "id": "b9478469ad809d71e1598d978a1d0678",
+            "id": "2277d921bf0f841ec5c052ca9e1ce0b7",
             "name": "",
             "url": "http:\/\/api.hsbc.com\/\/x-open-banking\/v1.2\/atms\/country\/{country}",
             "description": "This extended API will return data about all ATMs in the specified country. It is based-on the Open Banking standards as defined by the Open Banking Implementation Entity (OBIE) in data dictionary version 1.2.4. The extended functionality may not fully adhere to the non-functional requirements of the regulator. Data is only available for the United Kingdom.",
@@ -175,11 +175,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "580672235aa8f66d4669f404ef95ca88",
+            "collectionId": "09b24853c7a0e1c10ec4312a32ce64f3",
             "rawModeData": ""
         },
         {
-            "id": "ad9204fca719a52b0d7f4f8211cc84d8",
+            "id": "dbbcf513a7fec3e327fcf2bea8aa72a3",
             "name": "",
             "url": "http:\/\/api.hsbc.com\/\/x-open-banking\/v1.2\/atms\/country\/{country}\/town\/{town}",
             "description": "This extended API will return data about all ATMs in the specified town. It is based-on the Open Banking standards as defined by the Open Banking Implementation Entity (OBIE) in data dictionary version 1.2.4. The extended functionality may not fully adhere to the non-functional requirements of the regulator. Data is only available for the United Kingdom.",
@@ -213,11 +213,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "580672235aa8f66d4669f404ef95ca88",
+            "collectionId": "09b24853c7a0e1c10ec4312a32ce64f3",
             "rawModeData": ""
         },
         {
-            "id": "04ae0cff6df66c86a91cdeae21499f88",
+            "id": "c57bba218eda3950c06bbff401f94d56",
             "name": "",
             "url": "http:\/\/api.hsbc.com\/\/x-open-banking\/v1.2\/atms\/geo-location\/lat\/{latitude}\/long\/{longitude}",
             "description": "This extended API will data about all ATMs within a specified radius (1 to 10 miles) of the specified latitude and longitude. It is based-on the Open Banking standards as defined by the Open Banking Implementation Entity (OBIE) in data dictionary version 1.2.4. The extended functionality may not fully adhere to the non-functional requirements of the regulator. Data is only available for the United Kingdom.",
@@ -258,11 +258,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "580672235aa8f66d4669f404ef95ca88",
+            "collectionId": "09b24853c7a0e1c10ec4312a32ce64f3",
             "rawModeData": ""
         },
         {
-            "id": "a6e490eeec2dd8202611bcd513296c67",
+            "id": "817d9cf6f7a09888cb072b3e09a1685c",
             "name": "",
             "url": "http:\/\/api.hsbc.com\/\/x-open-banking\/v1.2\/atms\/postcode\/{postcode}",
             "description": "This extended API will return data about all ATMs within a 5 mile radius of the specified postcode. It is based-on the Open Banking standards as defined by the Open Banking Implementation Entity (OBIE) in data dictionary version 1.2.4. The extended functionality may not fully adhere to the non-functional requirements of the regulator. Data is only available for the United Kingdom.",
@@ -289,11 +289,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "580672235aa8f66d4669f404ef95ca88",
+            "collectionId": "09b24853c7a0e1c10ec4312a32ce64f3",
             "rawModeData": ""
         },
         {
-            "id": "0f24b21dcf43134ff3d1a65e73bf07db",
+            "id": "41b939c4490349489fc5e65bfe3ee359",
             "name": "",
             "url": "http:\/\/api.hsbc.com\/\/x-open-banking\/v1.2\/branches\/country\/{country}",
             "description": "This extended API will return the branch details for all branches in the specified country. It is based-on the Open Banking standards as defined by the Open Banking Implementation Entity (OBIE) in data dictionary version 1.2.4. The extended functionality may not fully adhere to the non-functional requirements of the regulator. Data is only available for the United Kingdom.",
@@ -320,11 +320,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "580672235aa8f66d4669f404ef95ca88",
+            "collectionId": "09b24853c7a0e1c10ec4312a32ce64f3",
             "rawModeData": ""
         },
         {
-            "id": "4b15b4b02dc2f8c5696d173109974258",
+            "id": "9512885ddde8754b66f46df7a64bd4a0",
             "name": "",
             "url": "http:\/\/api.hsbc.com\/\/x-open-banking\/v1.2\/branches\/country\/{country}\/town\/{town}",
             "description": "This extended API will return the branch details for all branches in the specified town. It is based-on the Open Banking standards as defined by the Open Banking Implementation Entity (OBIE) in data dictionary version 1.2.4. The extended functionality may not fully adhere to the non-functional requirements of the regulator. Data is only available for the United Kingdom.",
@@ -358,11 +358,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "580672235aa8f66d4669f404ef95ca88",
+            "collectionId": "09b24853c7a0e1c10ec4312a32ce64f3",
             "rawModeData": ""
         },
         {
-            "id": "05d822b8cabc4dab8b56bc2d8d744ce2",
+            "id": "e890efb55f38fd726c50656bec7aae40",
             "name": "",
             "url": "http:\/\/api.hsbc.com\/\/x-open-banking\/v1.2\/branches\/geo-location\/lat\/{latitude}\/long\/{longitude}",
             "description": "This API will return the branch details for all branches within a specified radius (1 to 10 miles) of the specified latitude and longitude. It is based-on the Open Banking standards as defined by the Open Banking Implementation Entity (OBIE) in data dictionary version 1.2.4. The extended functionality may not fully adhere to the non-functional requirements of the regulator. Data is only available for the United Kingdom.",
@@ -403,11 +403,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "580672235aa8f66d4669f404ef95ca88",
+            "collectionId": "09b24853c7a0e1c10ec4312a32ce64f3",
             "rawModeData": ""
         },
         {
-            "id": "4da03ea6a9de16fc80fd5fc49c102318",
+            "id": "8301a84dd7383bd0b590eb983e006a59",
             "name": "",
             "url": "http:\/\/api.hsbc.com\/\/x-open-banking\/v1.2\/branches\/postcode\/{postcode}",
             "description": "This extended API will return the branch details for all branches within a 5 mile radius of the specified postcode. It is based-on the Open Banking standards as defined by the Open Banking Implementation Entity (OBIE) in data dictionary version 1.2.4. The extended functionality may not fully adhere to the non-functional requirements of the regulator. Data is only available for the United Kingdom.",
@@ -434,11 +434,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "580672235aa8f66d4669f404ef95ca88",
+            "collectionId": "09b24853c7a0e1c10ec4312a32ce64f3",
             "rawModeData": ""
         },
         {
-            "id": "42816cabcd492326c6ec1ae1adee3f79",
+            "id": "4a2413018ff509fedfd9ae890a0d8580",
             "name": "",
             "url": "http:\/\/api.hsbc.com\/\/x-open-banking\/v1.2\/branches\/sortcode\/{sortcode}",
             "description": "This extended API will return the branch details for a branch specified by its sort code. It is based-on the Open Banking standards as defined by the Open Banking Implementation Entity (OBIE) in data dictionary version 1.2.4. The extended functionality may not fully adhere to the non-functional requirements of the regulator. Data is only available for the United Kingdom.",
@@ -465,11 +465,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "580672235aa8f66d4669f404ef95ca88",
+            "collectionId": "09b24853c7a0e1c10ec4312a32ce64f3",
             "rawModeData": ""
         },
         {
-            "id": "eeaf390213fc29f1e68518fbc1e5482a",
+            "id": "11cb0c921686481cad3112e4f4cbe0eb",
             "name": "",
             "url": "http:\/\/api.hsbc.com\/\/x-open-banking\/v1.2\/business-current-accounts\/segment\/{segment}",
             "description": "This extended API will return data about all BCA products for the specified segment. It is based-on the Open Banking standards as defined by the Open Banking Implementation Entity (OBIE) in data dictionary version 1.2.4. The extended functionality may not fully adhere to the non-functional requirements of the regulator. Data is only available for the United Kingdom.",
@@ -496,11 +496,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "580672235aa8f66d4669f404ef95ca88",
+            "collectionId": "09b24853c7a0e1c10ec4312a32ce64f3",
             "rawModeData": ""
         },
         {
-            "id": "23343789b549713f3f05760aafdae8ad",
+            "id": "fff892459a8ad5b76d33ac297e53272f",
             "name": "",
             "url": "http:\/\/api.hsbc.com\/\/x-open-banking\/v1.2\/commercial-credit-cards\/segment\/{segment}",
             "description": "This extended API will return data about all commercial credit cards products for the specified segment. It is based-on the Open Banking standards as defined by the Open Banking Implementation Entity (OBIE) in data dictionary version 1.2.4. The extended functionality may not fully adhere to the non-functional requirements of the regulator. Data is only available for the United Kingdom.",
@@ -527,11 +527,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "580672235aa8f66d4669f404ef95ca88",
+            "collectionId": "09b24853c7a0e1c10ec4312a32ce64f3",
             "rawModeData": ""
         },
         {
-            "id": "6ff15aa7e1406f368088ff098c45bd89",
+            "id": "12f0a1b3ae84822b3be71baed204cefd",
             "name": "",
             "url": "http:\/\/api.hsbc.com\/\/x-open-banking\/v1.2\/personal-current-accounts\/segment\/{segment}",
             "description": "This extended API will return data about all PCA products for the specified segment. It is based-on the Open Banking standards as defined by the Open Banking Implementation Entity (OBIE) in data dictionary version 1.2.4. The extended functionality may not fully adhere to the non-functional requirements of the regulator. Data is only available for the United Kingdom.",
@@ -558,11 +558,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "580672235aa8f66d4669f404ef95ca88",
+            "collectionId": "09b24853c7a0e1c10ec4312a32ce64f3",
             "rawModeData": ""
         },
         {
-            "id": "35c46df6ee1aca30e0b07ce975bb1cc3",
+            "id": "3f74eebeb48b22524d0002d7dbc89310",
             "name": "",
             "url": "http:\/\/api.hsbc.com\/\/x-open-banking\/v1.2\/unsecured-sme-loans\/segment\/{segment}",
             "description": "This extended API will return data about all SME lending products for the specified segment. It is based-on the Open Banking standards as defined by the Open Banking Implementation Entity (OBIE) in data dictionary version 1.2.4. The extended functionality may not fully adhere to the non-functional requirements of the regulator. Data is only available for the United Kingdom.",
@@ -589,7 +589,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "580672235aa8f66d4669f404ef95ca88",
+            "collectionId": "09b24853c7a0e1c10ec4312a32ce64f3",
             "rawModeData": ""
         }
     ]
