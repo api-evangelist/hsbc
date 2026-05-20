@@ -33,6 +33,10 @@ apis:
       - url: https://develop.hsbc.com/
         type: Portal
 common:
+  - type: GitHubOrganization
+    url: https://github.com/hsbc
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/hsbc
   - type: Website
     url: https://www.hsbc.com/
   - type: Portal
