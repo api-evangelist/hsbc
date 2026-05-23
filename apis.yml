@@ -41,6 +41,9 @@ common:
     url: https://www.hsbc.com/
   - type: Portal
     url: https://develop.hsbc.com/
+  - type: DeveloperPortal
+    url: https://developer.hsbc.com/
+    description: Public developer portal (verified live 2026-05-22)
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
