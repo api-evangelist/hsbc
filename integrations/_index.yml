@@ -46,3 +46,59 @@
       site''s own public guest JSON and the firm linked by the website the FCA states'
   status: not-a-workflow
   arazzo: null
+- slug: hsbc-apis-guru-openapi-directory
+  label: APIs.guru OpenAPI Directory
+  partner: apis-guru
+  partner_name: APIs.guru OpenAPI Directory
+  category: API definition directory listing (OpenAPI)
+  type: register
+  channel: standard-directory
+  evidence: https://apis.guru/
+  source: edge
+  relationship: standard-participant
+  contract_reference:
+    register: APIs.guru OpenAPI Directory
+    spec_file: null
+    standard: APIs.guru OpenAPI Directory
+    role: listed-in-directory
+    directory_provider: hsbc.com
+    matched_domain: hsbc.com
+    matched_by: domain+name-among-holders
+    apis_listed: 3
+    version_count: 3
+    first_added: '2017-11-25'
+    last_updated: '2021-06-21'
+    origin_publisher_hosted: true
+    origin_hosts:
+    - developer.hsbc.com
+    categories:
+    - financial
+    own_openapi_files: 0
+    listings:
+    - key: hsbc.com:atm
+      title: ATM Locator API
+      preferred: 2.2.1
+      versions: 1
+      swagger_url: https://api.apis.guru/v2/specs/hsbc.com/atm/2.2.1/swagger.json
+      origin_url: https://developer.hsbc.com/assets/swaggers/open-atm-locator-swagger.json
+      openapi_version: '2.0'
+    - key: hsbc.com:branches
+      title: Branch Locator API
+      preferred: 2.2.1
+      versions: 1
+      swagger_url: https://api.apis.guru/v2/specs/hsbc.com/branches/2.2.1/swagger.json
+      origin_url: https://developer.hsbc.com/assets/swaggers/open-branch-locator-swagger.json
+      openapi_version: '2.0'
+    - key: hsbc.com:product
+      title: Product Finder API
+      preferred: 2.2.1
+      versions: 1
+      swagger_url: https://api.apis.guru/v2/specs/hsbc.com/product/2.2.1/swagger.json
+      origin_url: https://developer.hsbc.com/assets/swaggers/open-product-finder-swagger.json
+      openapi_version: '2.0'
+    signal_note: 'participation only: a community directory listing (APIs.guru collects definitions; the provider
+      did not file them). Signals: version_count, apis_listed, origin_publisher_hosted.'
+    detected_by: sweep-openapi-directory-apis-guru.py
+    detected: '2026-10-22'
+  status: not-a-workflow
+  arazzo: null
